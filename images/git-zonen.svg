@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="390" viewBox="0 0 1100 390" role="img" aria-labelledby="title desc">
+<title id="title">Die drei Git-Bereiche</title><desc id="desc">Arbeitsverzeichnis, Staging Area und lokales Repository mit den Befehlen add, commit und restore.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1f4e79"/></marker><style>text{font-family:Arial,sans-serif;fill:#17324d}.h{font-size:24px;font-weight:700}.t{font-size:18px}.c{font-family:monospace;font-size:18px;font-weight:700;fill:#8b2f19}</style></defs>
+<rect width="1100" height="390" rx="18" fill="#f7f9fc"/>
+<rect x="45" y="70" width="280" height="205" rx="16" fill="#e8f1fb" stroke="#3973ac" stroke-width="3"/><text x="185" y="115" text-anchor="middle" class="h">Arbeitsverzeichnis</text><text x="185" y="158" text-anchor="middle" class="t">Dateien bearbeiten</text><text x="185" y="193" text-anchor="middle" class="t">nicht vorgemerkte Änderungen</text>
+<rect x="410" y="70" width="280" height="205" rx="16" fill="#fff4d6" stroke="#c58a00" stroke-width="3"/><text x="550" y="115" text-anchor="middle" class="h">Staging Area</text><text x="550" y="158" text-anchor="middle" class="t">Auswahl für den nächsten</text><text x="550" y="193" text-anchor="middle" class="t">Commit</text>
+<rect x="775" y="70" width="280" height="205" rx="16" fill="#e7f6eb" stroke="#35824c" stroke-width="3"/><text x="915" y="115" text-anchor="middle" class="h">Lokales Repository</text><text x="915" y="158" text-anchor="middle" class="t">gespeicherte Commits</text><text x="915" y="193" text-anchor="middle" class="t">und Branch-Zeiger</text>
+<line x1="325" y1="145" x2="400" y2="145" stroke="#1f4e79" stroke-width="4" marker-end="url(#a)"/><text x="362" y="128" text-anchor="middle" class="c">git add</text>
+<line x1="690" y1="145" x2="765" y2="145" stroke="#1f4e79" stroke-width="4" marker-end="url(#a)"/><text x="727" y="128" text-anchor="middle" class="c">git commit</text>
+<path d="M545 285 C470 350,250 350,185 285" fill="none" stroke="#8b2f19" stroke-width="3" marker-end="url(#a)"/><text x="365" y="350" text-anchor="middle" class="c">git restore --staged</text>
+<path d="M910 285 C825 375,285 375,190 288" fill="none" stroke="#35824c" stroke-width="3" marker-end="url(#a)"/><text x="600" y="382" text-anchor="middle" class="c">git restore DATEI</text>
+</svg>
